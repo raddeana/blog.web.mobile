@@ -1,6 +1,6 @@
 {
   "name": "blog.web.mobile",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "dev": "nuxt-ts",
@@ -13,11 +13,10 @@
     "test": "jest"
   },
   "dependencies": {
-    "@nuxt/typescript-runtime": "^2.0.1",
     "@nuxtjs/axios": "^5.12.5",
     "core-js": "^3.8.3",
-    "nuxt": "^2.14.12",
-    "vant": "^3.0.7"
+    "nuxt": "^2.15.4",
+    "vant": "^2.12.12"
   },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
@@ -31,13 +30,15 @@
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "^10.1.0",
     "babel-jest": "^26.6.3",
-    "babel-plugin-import": "^1.13.3",
     "eslint": "^7.18.0",
     "eslint-plugin-nuxt": "^2.0.0",
     "eslint-plugin-vue": "^7.5.0",
     "jest": "^26.6.3",
+    "less": "^4.1.1",
+    "less-loader": "^7.3.0",
     "stylelint": "^13.9.0",
     "stylelint-config-standard": "^20.0.0",
+    "ts-import-plugin": "^1.6.7",
     "ts-jest": "^26.4.4",
     "vue-jest": "^3.0.4"
   }
