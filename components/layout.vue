@@ -11,7 +11,7 @@
         <slot></slot>
         <van-tabbar v-model="active">
             <van-tabbar-item icon="home-o">首页</van-tabbar-item>
-            <van-tabbar-item icon="search">查询</van-tabbar-item>
+            <van-tabbar-item icon="guide-o">最近内容</van-tabbar-item>
             <van-tabbar-item icon="setting-o">我的</van-tabbar-item>
         </van-tabbar>
     </div>

@@ -58,6 +58,10 @@
 /deep/ .van-field__control {
     color: #fff;
 }
+
+/deep/ input::-webkit-input-placeholder{
+    color: #ffeb3b;
+}
 </style>
 <script lang="ts">
 import Vue from 'vue'
